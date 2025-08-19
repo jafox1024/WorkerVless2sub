@@ -1,7 +1,7 @@
 
 let 快速订阅访问入口 = ['auto'];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = ['https://raw.githubusercontent.com/JAfox1024/CloudflareST/refs/heads/main/TLS.txt'];
 
 let addressesnotls = [];
 let addressesnotlsapi = [];
@@ -42,7 +42,7 @@ let MamaJustKilledAMan = ['telegram', 'twitter', 'miaoko'];
 let proxyIPPool = [];
 let socks5Data;
 let alpn = 'h3';
-let 网络备案 = `<a href='https://t.me/CMLiussss'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
+let 网络备案 = `<a href='wthp.online'>萌ICP备-20240707号</a>`;
 let 额外ID = '0';
 let 加密方式 = 'auto';
 let 网站图标, 网站头像, 网站背景, xhttp = '';
@@ -1469,4 +1469,5 @@ async function subHtml(request) {
 			"content-type": "text/html;charset=UTF-8",
 		},
 	});
+
 }
